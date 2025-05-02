@@ -34,10 +34,34 @@ To write a Python program to create a Parent class `Bird` and inherit two child 
 ### PROGRAM
 
 ```
+reg no:212223070023
+name:Saran Krishna P S
+class Bird:
+    def flight(self):
+        print("Some birds can fly.")
+
+class Sparrow(Bird):
+    def flight(self):
+        print("Sparrow can fly.")
+
+class Ostrich(Bird):
+    def flight(self):
+        print("Ostrich cannot fly.")
+
+bird = Bird()
+sparrow = Sparrow()
+ostrich = Ostrich()
+
+bird.flight()
+sparrow.flight()
+ostrich.flight()
+
 
 ```
 
 ### OUTPUT
 
+![image](https://github.com/user-attachments/assets/5b1ce106-d628-475b-9a94-5001b54e5c1f)
 
 ### RESULT
+thus the program is executed successfully.
