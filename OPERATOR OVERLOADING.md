@@ -58,7 +58,8 @@ print("Result of division:", result)
 ```
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/e5357294-2c3f-4eb0-8c92-1843c8fea4c4)
 
 
 ### RESULT
-
+thus the program is executed successfully.
