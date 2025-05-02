@@ -26,6 +26,32 @@ To write a Python program to create a class `Student` with the private members `
 ### PROGRAM
 
 ```
+reg no:212223070023
+name:Saran Krishna P S
+class Student:
+    def __init__(self, name, age):
+        self.__name = name
+        self.__age = age
+
+    def get_age(self):
+        return self.__age
+
+    def set_age(self, age):
+        if age > 0:
+            self.__age = age
+        else:
+            print("Invalid age.")
+
+    def display(self):
+        print(f"Name: {self.__name}, Age: {self.__age}")
+
+s1 = Student("John", 20)
+s1.display()
+
+s1.set_age(22)
+s1.display()
+
+s1.set_age(-5)  # Invalid case
 
 
 
@@ -33,7 +59,8 @@ To write a Python program to create a class `Student` with the private members `
 
 ### OUTPUT
 
+![image](https://github.com/user-attachments/assets/e817cb09-bb53-48cc-84a3-37be8cf090fe)
 
 ### RESULT
-
+thus the program is executed successfully.
 
